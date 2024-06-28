@@ -1123,6 +1123,12 @@ But, it's possible to add metric collection capabilities to any feign client.
 
 Metric Capabilities provide a first-class Metrics API that users can tap into to gain insight into the request/response lifecycle.
 
+> **A Note on Metrics modules**:
+>
+> All metric-integrations are built in separate modules and not available in the `feign-core` module. You will need to add them to your dependencies.
+
+Metrics4Capability
+
 #### Dropwizard Metrics 4
 
 ```
